@@ -45,7 +45,7 @@ public class AddCustomerTestPage {
 	dashboardpage.AddCustomerPageChk();
 	
 	
-	BrowserFactory.tearDown();
+	//BrowserFactory.tearDown();
 	
 	}
 	

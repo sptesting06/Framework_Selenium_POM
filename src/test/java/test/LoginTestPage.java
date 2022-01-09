@@ -15,7 +15,7 @@ public class LoginTestPage {
 	public void validUserShouldBeAbleToLogin () {
 	driver = BrowserFactory.init();
 		
-	LoginPage loginPage = PageFactory.initElements(driver, LoginPage.class); 
+	LoginPage loginPage = new LoginPage(driver);
 	loginPage.loginELement("demo@techfios.com");
 	loginPage.passwordElement("abc123");
 	loginPage.signInElement();
